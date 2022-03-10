@@ -32,18 +32,32 @@
         
         
         .wars{
-          margin-left: 170px !important;
+        
           margin-top: 20px !important;
         }
         .wr{
           margin-left:50px !important;
         }
-        .lnks{
-          margin-top: 20px !important;
-          margin-left: 50px !important;
-        }
+        
         .lnks li:hover{
           transform: scale(1.1);
+        }
+         @media(max-width:500px){
+          .mar{
+            
+            width: 300px !important;
+
+          }
+          body{
+            background-size: 500px;
+            background-repeat:initial;
+            }
+            
+          .wars{
+            height: 600px;
+            background-color: grey;
+          }
+     
         }
         
     </style>
@@ -155,7 +169,7 @@
       ।। राजा शिवछत्रपती ।।</h3><br><br><br><br>
 
       <div class=" row footer">
-        <div class="wars col-2">
+        <div class="wars col-4">
           <h2 class="wr">WARS</h2>
           <ul>
             <li>Battle of Pratapgad.</li>
@@ -169,7 +183,7 @@
             <li>Battle of sangamner.</li>
           </ul>
         </div>
-        <div class="wars col-3 ">
+        <div class="wars col-4 ">
           <h2 class="wr">Facts</h2>
           <ul>
             <li></li>
@@ -183,8 +197,8 @@
           </ul>
         
         </div>
-        <div class="lnks col-3">
-          <ul >
+        <div class="wars col-4">
+          <ul class="lnks">
             <h2>Links</h2>
             <li><a href="index.html">home</a></li>
             <li><a href="raje.html">Maharaj</a></li>
